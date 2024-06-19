@@ -1,12 +1,12 @@
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 import logo from './logo.svg';
-import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      
-      <Header />
-          
+    <div className="">
+      <Header className=" h-20"/>
+      <Outlet></Outlet>
     </div>
   );
 };
