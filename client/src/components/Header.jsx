@@ -1,8 +1,6 @@
 import React from 'react'
 import acm_logo from "../assets/acm_logo.jpg"
 import { Link } from 'react-router-dom'
-import Gallery from './Gallery'
-
 
 const Header = () => {
   return (

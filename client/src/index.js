@@ -13,6 +13,10 @@ const appRouter = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path : "/",
+        element : <HomePage />
+      },
+      {
         path: "/gallery",
         element: <Gallery />
       },
