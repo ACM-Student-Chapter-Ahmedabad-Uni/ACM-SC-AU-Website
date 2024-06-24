@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Gallery from "./components/Gallery";
 import App from "./App";
+import Events from "./components/Events";
+import Team from "./components/Team";
 
 const appRouter = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const appRouter = createBrowserRouter([
         path: "/gallery",
         element: <Gallery />
       },
+      {
+        path: "/events",
+        element: <Events />
+      },
+      {
+        path: "/team",
+        element: <Team />
+      }
     ]
   }
 ]);

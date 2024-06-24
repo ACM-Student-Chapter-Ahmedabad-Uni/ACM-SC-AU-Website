@@ -5,7 +5,7 @@ import au_logo from "../assets/au_logo.jpg";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center items-center flex-wrap mt-8 w-full">
+    <div className="flex justify-center items-center flex-wrap mt-32 w-full">
       <div className="flex justify-around items-center w-full h-3/4 ">
         <img src={acm_log} className="h-auto w-22 "></img>
         <img src={au_logo} className="h-28 mr-10"></img>
